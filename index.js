@@ -32,7 +32,7 @@ app.get('/', function(req, res){
         }
 
         return res.render('home', {
-            tittle: "Home",
+            title: "Home",
             task: task
         });
     }
@@ -56,7 +56,6 @@ app.post('/create-task', function(req, res){
 
     });
 });
-
 
 // deleting Tasks
 app.get('/delete-task', function(req, res){
